@@ -13,6 +13,11 @@
 		E3FCD0021BC8F5A7008A26B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3FCD0011BC8F5A7008A26B5 /* Assets.xcassets */; };
 		E3FCD0051BC8F5A7008A26B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FCD0031BC8F5A7008A26B5 /* LaunchScreen.storyboard */; };
 		E3FCD0101BC8F5A8008A26B5 /* TuanTA_ShoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD00F1BC8F5A8008A26B5 /* TuanTA_ShoppingTests.swift */; };
+		E3FCD01F1BC8F85D008A26B5 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD01E1BC8F85D008A26B5 /* ProductTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		E3FCD0211BC901B3008A26B5 /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD0201BC901B3008A26B5 /* ProductTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E3FCD0231BC90258008A26B5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD0221BC90258008A26B5 /* Product.swift */; settings = {ASSET_TAGS = (); }; };
+		E3FCD0251BC9452B008A26B5 /* PurchaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD0241BC9452B008A26B5 /* PurchaseTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		E3FCD0271BC94660008A26B5 /* PurchaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD0261BC94660008A26B5 /* PurchaseTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		E3FCD00B1BC8F5A8008A26B5 /* TuanTA_ShoppingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuanTA_ShoppingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FCD00F1BC8F5A8008A26B5 /* TuanTA_ShoppingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuanTA_ShoppingTests.swift; sourceTree = "<group>"; };
 		E3FCD0111BC8F5A8008A26B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3FCD01E1BC8F85D008A26B5 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		E3FCD0201BC901B3008A26B5 /* ProductTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
+		E3FCD0221BC90258008A26B5 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E3FCD0241BC9452B008A26B5 /* PurchaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseTableViewCell.swift; sourceTree = "<group>"; };
+		E3FCD0261BC94660008A26B5 /* PurchaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,11 @@
 				E3FCD0011BC8F5A7008A26B5 /* Assets.xcassets */,
 				E3FCD0031BC8F5A7008A26B5 /* LaunchScreen.storyboard */,
 				E3FCD0061BC8F5A7008A26B5 /* Info.plist */,
+				E3FCD01E1BC8F85D008A26B5 /* ProductTableViewCell.swift */,
+				E3FCD0201BC901B3008A26B5 /* ProductTableViewController.swift */,
+				E3FCD0221BC90258008A26B5 /* Product.swift */,
+				E3FCD0241BC9452B008A26B5 /* PurchaseTableViewCell.swift */,
+				E3FCD0261BC94660008A26B5 /* PurchaseTableViewController.swift */,
 			);
 			path = TuanTA_Shopping;
 			sourceTree = "<group>";
@@ -200,6 +215,11 @@
 			files = (
 				E3FCCFFD1BC8F5A7008A26B5 /* ViewController.swift in Sources */,
 				E3FCCFFB1BC8F5A7008A26B5 /* AppDelegate.swift in Sources */,
+				E3FCD0231BC90258008A26B5 /* Product.swift in Sources */,
+				E3FCD0211BC901B3008A26B5 /* ProductTableViewController.swift in Sources */,
+				E3FCD0251BC9452B008A26B5 /* PurchaseTableViewCell.swift in Sources */,
+				E3FCD0271BC94660008A26B5 /* PurchaseTableViewController.swift in Sources */,
+				E3FCD01F1BC8F85D008A26B5 /* ProductTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +409,7 @@
 				E3FCD0161BC8F5A8008A26B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3FCD0171BC8F5A8008A26B5 /* Build configuration list for PBXNativeTarget "TuanTA_ShoppingTests" */ = {
 			isa = XCConfigurationList;
@@ -397,6 +418,7 @@
 				E3FCD0191BC8F5A8008A26B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
